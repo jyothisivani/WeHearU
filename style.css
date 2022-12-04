@@ -1,0 +1,268 @@
+[data-theme="light"] {
+--bg-color: #FFE4E1;
+--color: 	#2F4F4F;
+--togglebg: #FA8072;
+--toggleslider: #FA8072;
+--roundcolor: #FA8072;
+--svgcolor: #FA8072;
+}
+
+[data-theme="dark"] {
+--bg-color: #F0FFF0;
+--color: #FA8072;
+--togglebg: #FA8072;
+--toggleslider: #FA8072;
+--roundcolor: #FA8072;
+--svgcolor: #FA8072;
+}
+
+body{
+  background: #FFF0F5;
+  background-image: url(data:image/jpeg;base64,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);
+  background-size: cover;
+  background-position: center ;
+
+}
+
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+}
+
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+line-height: 1.4;
+background-color: var(--bg-color);
+transition: all 0.6s;
+}
+
+
+nav {
+display: flex;
+justify-content: flex-end;
+padding: 20px 24px;
+}
+
+.btn {
+position: absolute;
+left: 2rem;
+margin-top: 0.3rem;
+}
+
+.theme-switch-wrapper {
+display: flex;
+align-items: center;
+}
+
+.theme-switch-wrapper em {
+margin-left: 10px;
+font-size: 1rem;
+}
+
+.theme-switch {
+display: inline-block;
+height: 34px;
+position: relative;
+width: 60px;
+}
+
+.theme-switch input {
+display: none;
+}
+
+.slider {
+background-color: var(--togglebg);
+bottom: 0;
+cursor: pointer;
+left: 0;
+position: absolute;
+right: 0;
+top: 0;
+transition: 0.4s;
+}
+
+.slider:before {
+background-color: var(--roundcolor);
+bottom: 4px;
+content: "";
+height: 26px;
+left: 4px;
+position: absolute;
+transition: 0.4s;
+width: 26px;
+}
+
+input:checked + .slider {
+background-color: var(--toggleslider);
+}
+
+input:checked + .slider:before {
+transform: translateX(26px);
+}
+
+.slider.round {
+border-radius: 34px;
+}
+
+.slider.round:before {
+border-radius: 50%;
+}
+
+em {
+color: var(--color);
+}
+
+.container {
+width: 100%;
+max-width: 700px;
+margin: 0 auto;
+padding-left: 10px;
+padding-right: 10px;
+color: var(--color);
+margin: auto;
+padding-top: 4rem;
+}
+
+.app-title {
+text-align: center;
+margin-bottom: 20px;
+font-size: 80px;
+}
+
+svg {
+width: 64px;
+height: 64px;
+}
+
+.todo-list {
+list-style: none;
+margin-bottom: 20px;
+}
+
+.todo-item {
+margin-bottom: 10px;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.todo-item span {
+flex-grow: 1;
+margin-left: 10px;
+margin-right: 10px;
+font-size: 22px;
+}
+
+.done span {
+text-decoration: line-through;
+user-select: none;
+}
+
+input[type="checkbox"] {
+display: none;
+}
+input:focus {
+outline: none;
+background-color: #d4e7d5;
+}
+
+.tick {
+width: 30px;
+height: 30px;
+border: 3px solid var(--color);
+border-radius: 50%;
+display: inline-flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.tick::before {
+content: "✔️";
+font-size: 20px;
+display: none;
+}
+
+.done .tick::before {
+display: inline;
+}
+
+.delete-todo {
+border: none;
+background-color: transparent;
+outline: none;
+cursor: pointer;
+}
+
+.delete-todo svg {
+width: 30px;
+height: 30px;
+pointer-events: none;
+}
+
+form {
+width: 100%;
+display: flex;
+justify-content: space-between;
+margin-bottom: 2rem;
+}
+
+input[type="text"] {
+width: 100%;
+padding: 10px;
+border-radius: 4px;
+border: 3px solid #333;
+}
+
+
+
+.empty-state {
+flex-direction: column;
+align-items: center;
+justify-content: center;
+display: none;
+}
+
+.checklist-icon {
+margin-bottom: 20px;
+}
+
+.empty-state__title,
+.empty-state__description {
+
+font-size: 25px;
+text-align: center;
+margin: 2rem;
+width: 25rem;
+}
+
+.todo-list:empty {
+display: none;
+}
+
+.todo-list:empty + .empty-state {
+display: flex;
+}
+
+@media (max-width: 608px) {
+.container {
+width: 90%;
+margin: auto;
+}
+.app-title {
+font-size: 3rem;
+}
+.empty-state__title,
+.empty-state__description {
+font-size: 1.5rem;
+width: 18rem;
+}
+
+em {
+display: none;
+}
+}
